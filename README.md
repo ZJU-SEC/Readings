@@ -1,4 +1,4 @@
-i# Readings
+# Readings
 
 
 ### Kernel analysis
