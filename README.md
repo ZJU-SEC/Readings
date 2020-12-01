@@ -25,6 +25,7 @@
 * 2013-DSN: [Hector: Detecting resource-release omission faults in error-handling code for systems software](https://hal.inria.fr/hal-00918079/document)
 * 2013-WCRE: [Who Allocated My Memory? Detecting Custom Memory Allocators in C Binaries](https://www.cs.vu.nl/~herbertb/papers/membrush_wcre13.pdf)
 * 2012-OSDI：[Improving integer security for systems with KINT](https://www.usenix.org/conference/osdi12/technical-sessions/presentation/wang)
+* 2008-EUROSYS: [Documenting and automating collateral evolutions in linux device drivers](https://www.researchgate.net/profile/Yoann_Padioleau/publication/221351679_Towards_Documenting_and_Automating_Collateral_Evolutions_in_Linux_Device_Drivers/links/00b7d5255a2ef57876000000/Towards-Documenting-and-Automating-Collateral-Evolutions-in-Linux-Device-Drivers.pdf)
 * 2007-ICSE: [Pathsensitive inference of function precedence protocols](https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=2660&context=cstech)
 * 2005-ESEC/FSE: [Context- and Path-sensitive Memory Leak Detection](http://groups.csail.mit.edu/pag/OLD/parg/xie05leak.pdf)
 * 2001-OSR: [Bugs as Deviant Behavior: A General Approach to Inferring Errors in Systems Code](https://apps.dtic.mil/sti/pdfs/ADA419584.pdf)
