@@ -29,3 +29,11 @@
 * 2007-ICSE: [Pathsensitive inference of function precedence protocols](https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=2660&context=cstech)
 * 2005-ESEC/FSE: [Context- and Path-sensitive Memory Leak Detection](http://groups.csail.mit.edu/pag/OLD/parg/xie05leak.pdf)
 * 2001-OSR: [Bugs as Deviant Behavior: A General Approach to Inferring Errors in Systems Code](https://apps.dtic.mil/sti/pdfs/ADA419584.pdf)
+
+### Kernel Code and Page Table Protection
+
+#### x86
+
+#### ARM
+
+#### RISCV
