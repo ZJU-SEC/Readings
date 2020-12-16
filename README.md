@@ -33,7 +33,20 @@
 ### Kernel Code and Page Table Protection
 
 #### x86
-
+* 2017-EUROSP: On the Effectiveness of Virtualization Based Memory Isolation on Multicore Platforms
+* 2017-NDSS: PT-Rand: Practical Mitigation of Data-only Attacks against Page Tables
+* 2010-CCS: Hypersentry: enabling stealthy in-context measurement of hypervisor integrity
+* 2010-SP: Hypersafe: A lightweight approach to provide lifetime hypervisor control-flow integrity
+* 2007-SOSP: SecVisor : A Tiny Hypervisor to Provide Lifetime Kernel Code Integrity for Commodity OSes
 #### ARM
+* 2017-NDSS：Dynamic Virtual Address Range Adjustment for Intra-Level Privilege Separation on ARM
+* 2016-NDSS: SKEE: A lightweight Secure Kernel-level Execution Environment for ARM
+* 2014-MST: SPROBES: Enforcing Kernel Code Integrity on the TrustZone Architecture
+* 2014-CCS: Hypervision Across Worlds: Real-time Kernel Protection from the ARM TrustZone Secure World
 
 #### RISCV
+
+
+#### MISC
+* 2018-DAC: Hypernel: a hardware-assisted framework for kernel protection without nested paging
+* 2016-HASP：Architectural supports to protect OS kernels from code-injection attacks
