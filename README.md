@@ -33,11 +33,11 @@
 ### Kernel Code and Page Table Protection
 
 #### x86
-* 2017-EUROSP: On the Effectiveness of Virtualization Based Memory Isolation on Multicore Platforms
-* 2017-NDSS: PT-Rand: Practical Mitigation of Data-only Attacks against Page Tables
-* 2010-CCS: Hypersentry: enabling stealthy in-context measurement of hypervisor integrity
-* 2010-SP: Hypersafe: A lightweight approach to provide lifetime hypervisor control-flow integrity
-* 2007-SOSP: SecVisor : A Tiny Hypervisor to Provide Lifetime Kernel Code Integrity for Commodity OSes
+* 2017-EUROSP: [On the Effectiveness of Virtualization Based Memory Isolation on Multicore Platforms](https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=4701&context=sis_research)
+* 2017-NDSS: [PT-Rand: Practical Mitigation of Data-only Attacks against Page Tables](https://pdfs.semanticscholar.org/97c7/8ac6c015b5ed11eb825adc02fbb2a55913ae.pdf)
+* 2010-CCS: [Hypersentry: enabling stealthy in-context measurement of hypervisor integrity](http://www.cse.psu.edu/~trj1/cse597-s11/docs/hypersentry_ccs10.pdf)
+* 2010-SP: [Hypersafe: A lightweight approach to provide lifetime hypervisor control-flow integrity](http://www.cs.fsu.edu/~zwang/files/oakland10.pdf)
+* 2007-SOSP: [SecVisor : A Tiny Hypervisor to Provide Lifetime Kernel Code Integrity for Commodity OSes](http://www.cs.cmu.edu/~arvinds/pubs/secvisor.pdf)
 * 2019-USENIX: [ERIM: Secure, Efficient In-process Isolation with Protection Keys (MPK)](https://www.usenix.org/system/files/sec19-vahldiek-oberwagner_0.pdf)
 * 2011-NDSS: [Practical Protection of Kernel Integrity for Commodity OS from Untrusted Extensions](https://www.ndss-symposium.org/wp-content/uploads/2017/09/xipdf.pdf)
 * 2009-USENIX: [Return-Oriented Rootkits: Bypassing Kernel Code Integrity Protection Mechanisms](https://www.usenix.org/legacy/events/sec09/tech/full_papers/hund.pdf)
