@@ -1,12 +1,29 @@
 # Readings
 
 
-### Static Analysis for Bug Finding
+## Kernel Static Analysis
+
+### Latest Static Analysis Technique (周金梦，杨昱天)
+
+* 2001-OSR: [Bugs as Deviant Behavior: A General Approach to Inferring Errors in Systems Code](https://apps.dtic.mil/sti/pdfs/ADA419584.pdf)
+* * 2019-FSE：[Detecting Concurrency Memory Corruption Vulnerabilities](https://dl.acm.org/doi/10.1145/3338906.3338927) — 【[tool-CONVUL](https://github.com/mryancai/ConVul)】
+
+### Detecting UB Bugs in Kernel (屠锦江，周天昱)
+
 * 2021-NDSS: [KUBO: Precise and Scalable Detection of User-triggerable Undefined Behavior Bugs in OS Kernel](https://www.ndss-symposium.org/wp-content/uploads/ndss2021_1B-5_24461_paper.pdf)
+
+### Detecting Logical Bugs in Kernel (周侠)
+
+
 * 2020-CCS: [Exaggerated Error Handling Hurts! An In-Depth Study and Context-Aware Detection](https://www-users.cs.umn.edu/~kjlu/papers/eecatch.pdf)
+
+### Research Trends of Kernel Static Analysis (杨昱天)
+
+
+
 * 2020-TOCS：[Effective Detection of Sleep-in-atomic-context Bugs in the Linux Kernel](https://dl.acm.org/doi/pdf/10.1145/3381990)
 * 2019-ASPLOS: [DCNS: Automated Detection Of Conservative Non-Sleep Defects in the Linux Kernel](https://hal.inria.fr/hal-02389543/document)
-* 2019-FSE：[Detecting Concurrency Memory Corruption Vulnerabilities](https://dl.acm.org/doi/10.1145/3338906.3338927) — 【[tool-CONVUL](https://github.com/mryancai/ConVul)】
+
 * 2019-USENIX：[Detecting Missing-Check Bugs via Semantic- and Context-Aware Criticalness and Constraints Inferences](https://www.usenix.org/conference/usenixsecurity19/presentation/lu) — 【[tool-CRIX](https://github.com/umnsec/crix)】
 * 2019-USENIX：[PeX: A Permission Check Analysis Framework for Linux Kernel](https://www.usenix.org/conference/usenixsecurity19/presentation/zhang-tong)
 * 2019-USENIX-ATC：[Effective Static Analysis of Concurrency Use-After-Free Bugs in Linux Device Drivers](https://www.usenix.org/conference/atc19/presentation/bai) — 【[note](https://securitygossip.com/blog/2019/11/22/effective-static-analysis-of-concurrency-use-after-free-bugs-in-linux-device-drivers/)】
@@ -28,7 +45,7 @@
 * 2008-EUROSYS: [Documenting and automating collateral evolutions in linux device drivers](https://www.researchgate.net/profile/Yoann_Padioleau/publication/221351679_Towards_Documenting_and_Automating_Collateral_Evolutions_in_Linux_Device_Drivers/links/00b7d5255a2ef57876000000/Towards-Documenting-and-Automating-Collateral-Evolutions-in-Linux-Device-Drivers.pdf)
 * 2007-ICSE: [Pathsensitive inference of function precedence protocols](https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=2660&context=cstech)
 * 2005-ESEC/FSE: [Context- and Path-sensitive Memory Leak Detection](http://groups.csail.mit.edu/pag/OLD/parg/xie05leak.pdf)
-* 2001-OSR: [Bugs as Deviant Behavior: A General Approach to Inferring Errors in Systems Code](https://apps.dtic.mil/sti/pdfs/ADA419584.pdf)
+
 
 ### Kernel Code and Page Table Protection
 
