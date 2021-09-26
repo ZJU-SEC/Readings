@@ -55,25 +55,70 @@
 * 2020-SP: [xMP: Selective Memory Protection for Kernel and User Space](https://www3.cs.stonybrook.edu/~mikepo/papers/xmp.sp20.pdf)
 * 2017-EUROSP: [On the Effectiveness of Virtualization Based Memory Isolation on Multicore Platforms](https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=4701&context=sis_research)
 * 2017-NDSS: [PT-Rand: Practical Mitigation of Data-only Attacks against Page Tables](https://pdfs.semanticscholar.org/97c7/8ac6c015b5ed11eb825adc02fbb2a55913ae.pdf)
+* 2017-EuroSys: [kR^X: Comprehensive Kernel Protection against Just-In-Time Code Reuse](https://dl.acm.org/doi/pdf/10.1145/3064176.3064216)
 * 2016-CCS: [Prefetch Side-Channel Attacks: Bypassing SMAP and Kernel ASLR](https://dl.acm.org/doi/pdf/10.1145/2976749.2978356)
+* 2016-CNS: [Preventing Kernel Code-Reuse Attacks Through Disclosure Resistant Code Diversification](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7860485)
 * 2015-ASPLOS: [Nested Kernel: An Operating System Architecture for Intra-Kernel Privilege Separation](https://nathandautenhahn.com/downloads/publications/asplos200-dautenhahn.pdf)
 * 2015-ATC: [SecPod: A Framework for Virtualization-based Security Systems](https://www.usenix.org/system/files/conference/atc15/atc15-paper-wang-xiaoguang.pdf)
+* 2012-ACSEC: [Efficient protection of kernel data structures via object partitioning](https://dl.acm.org/doi/pdf/10.1145/2420950.2421012)
 * 2011-ASPLOS: [Ensuring Operating System Kernel Integrity with OSck](https://dl.acm.org/doi/pdf/10.1145/1961295.1950398)
 * 2011-NDSS: [Practical Protection of Kernel Integrity for Commodity OS from Untrusted Extensions](https://www.ndss-symposium.org/wp-content/uploads/2017/09/xipdf.pdf)
 * 2010-CCS: [Hypersentry: enabling stealthy in-context measurement of hypervisor integrity](http://www.cse.psu.edu/~trj1/cse597-s11/docs/hypersentry_ccs10.pdf)
 * 2010-SP: [Hypersafe: A lightweight approach to provide lifetime hypervisor control-flow integrity](http://www.cs.fsu.edu/~zwang/files/oakland10.pdf)
+* 2010-SP: [TrustVisor: Efficient TCB Reduction and Attestation](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5504713)
+* 2010-ACSEC: [Analyzing and improving Linux kernel memory protection: a model checking approach](https://dl.acm.org/doi/pdf/10.1145/1920261.1920301)
+* 2009-CCS: [Countering kernel rootkits with lightweight hook protection](https://dl.acm.org/doi/pdf/10.1145/1653662.1653728)
 * 2009-USENIX: [Return-Oriented Rootkits: Bypassing Kernel Code Integrity Protection Mechanisms](https://www.usenix.org/legacy/events/sec09/tech/full_papers/hund.pdf)
+* 2009-ACSEC: [Protecting Kernel Code and Data with a Virtualization-Aware Collaborative Operating System](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5380702)
 * 2007-SOSP: [SecVisor : A Tiny Hypervisor to Provide Lifetime Kernel Code Integrity for Commodity OSes](http://www.cs.cmu.edu/~arvinds/pubs/secvisor.pdf)
 
 #### ARM
-* 2017-NDSS：Dynamic Virtual Address Range Adjustment for Intra-Level Privilege Separation on ARM
-* 2016-NDSS: SKEE: A lightweight Secure Kernel-level Execution Environment for ARM
-* 2014-MST: SPROBES: Enforcing Kernel Code Integrity on the TrustZone Architecture
-* 2014-CCS: Hypervision Across Worlds: Real-time Kernel Protection from the ARM TrustZone Secure World
+* 2017-NDSS：[Dynamic Virtual Address Range Adjustment for Intra-Level Privilege Separation on ARM](https://www.ndss-symposium.org/wp-content/uploads/2017/09/ndss2017_05B-5_Cho_paper.pdf)
+* 2016-HPCC-SmartCity-DSS: [TZ-KPM:Kernel Protection Mechanism on Embedded Devices on Hardware-Assisted Isolated Environment](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7828439)
+* 2016-NDSS: [SKEE: A lightweight Secure Kernel-level Execution Environment for ARM](https://www.ndss-symposium.org/wp-content/uploads/2017/09/skee-lightweight-secure-kernel-level-execution-environment-for-arm.pdf)
+* 2014-MST: [SPROBES: Enforcing Kernel Code Integrity on the TrustZone Architecture](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/10/most14.pdf)
+* 2014-CCS: [Hypervision Across Worlds: Real-time Kernel Protection from the ARM TrustZone Secure World](http://www.cse.unsw.edu.au/~cs9242/15/exam/paper2.pdf)
 
 #### RISCV
-
+* 2019-DATE: [RiskiM: Toward Complete Kernel Protection with Hardware Support](https://ieeexplore.ieee.org/abstract/document/8715277)
 
 #### MISC
 * 2018-DAC: Hypernel: a hardware-assisted framework for kernel protection without nested paging
-* 2016-HASP：Architectural supports to protect OS kernels from code-injection attacks
+* 2016-CNS: [Preventing kernel code-reuse attacks through disclosure resistant code diversification](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7860485)
+* 2016-HASP：[Architectural supports to protect OS kernels from code-injection attacks](https://caslab.csl.yale.edu/workshops/hasp2016/HASP16-11.pdf)
+* 2008-RAID: [Guest-Transparent Prevention of Kernel Rootkits with VMM-Based Memory Shadowing](https://link.springer.com/content/pdf/10.1007%2F978-3-540-87403-4_1.pdf)
+* 1999-ICDCS: [Efficient Kernel Support of Fine-Grained Protection Domains for Mobile Code](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=776507)
+
+
+#### Kernel Code/PageTable Protect Summary
+
+|Type|Date|Paper|
+|------|------|------|
+|KLAT - PageTable |||
+||2017-NDSS|PT-Rand: Practical Mitigation of Data-only Attacks against Page TablesPT-Rand
+||2010-ACSEC| Analyzing and Improving Linux Kernel Memory Protection: A Model Checking Approach
+|KLAT - Code|||
+||2017-EuroSys| kR^X: Comprehensive Kernel Protection against Just-In-Time Code Reuse
+||2016-CNS|Preventing Kernel Code-Reuse Attacks Through Disclosure Resistant Code Diversification
+||2015-SP|Readactor: Practical Code Randomization Resilient to Memory Disclosure
+||2015-ASPLOS| Nested Kernel: An Operating System Architecture for Intra-Kernel Privilege Separation
+||2014-SIGSAC |You Can Run but You Can’t Read: Preventing Disclosure Exploits in Executable Code
+||1999-ICDCS |Efficient Kernel Support of Fine-Grained Protection Domains for Mobile Code
+|SLAT - PageTable|||
+||2020-SP|xMP: Selective Memory Protection for Kernel and User Space 
+||2017-EUROP| On the Effectiveness of Virtualization Based Memory Isolation on Multicore Platforms
+||2016-ATC| SecPod: SecPod: a Framework for Virtualization-based Security Systems
+||2007-SOSP| SecVisor : A Tiny Hypervisor to Provide Lifetime Kernel Code Integrity for Commodity OSes
+|SLAT - Code|||
+||2011-NDSS| Practical Protection of Kernel Integrity for Commodity OS from Untrusted Extensions
+||2010-SP| TrustVisor: Efficient TCB Reduction and Attestation
+||2009-CCS| Countering kernel rootkits with lightweight hook protection
+||2009-ACSEC| Protecting Kernel Code and Data with a Virtualization-Aware Collaborative Operating System
+||2008-RAID| Guest-Transparent Prevention of Kernel Rootkits with VMM-Based Memory Shadowing
+|Other Hardwares - PageTable |||
+||2014-CCS| Hypervision Across Worlds: Real-time Kernel Protection from the ARM TrustZone Secure World
+|Other Hardwares - Code |||
+||2019-DATE| RiskiM: Toward Complete Kernel Protection with Hardware Support
+||2016-HPCC| TZ-KPM Kernel Protection Mechanism on Embedded Devices on Hardware-assisted Isolated Environment 
+||2016-NDSS| SKEE: A lightweight Secure Kernel-level Execution Environment for ARM
+||2016-HASP| Architectural Supports to Protect OS Kernels from Code-Injection Attacks
