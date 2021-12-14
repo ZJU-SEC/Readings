@@ -122,3 +122,37 @@
 ||2016-HPCC| TZ-KPM Kernel Protection Mechanism on Embedded Devices on Hardware-assisted Isolated Environment 
 ||2016-NDSS| SKEE: A lightweight Secure Kernel-level Execution Environment for ARM
 ||2016-HASP| Architectural Supports to Protect OS Kernels from Code-Injection Attacks
+
+
+#### Kernel Fuzzing
+|Type|Date|Paper|
+|------|------|------|
+|SYSCALL|||
+||SOSP 2021|HEALER: Relation Learning Guided Kernel Fuzzing|
+||CCS 2021|SyzGen: Automated Generation of Syscall Specification of Closed-Source macOS Drivers|
+||NDSS 2020|HFL: Hybrid Fuzzing on the Linux Kernel|
+||EuroSec 2020|X-AFL: A Kernel fuzzer combining passive and active fuzzing|
+||USENIX 2018|MoonShine: Optimizing OS fuzzer seed selection with trace distillation|
+|INPUT|||
+||NDSS 2022|EMS : History-Driven Mutation for Coverage-based Fuzzing|
+||USENIX 2021|SYZVEGAS : Beating Kernel Fuzzing Odds with Reinforcement Learning|
+|DRIVER & FILESYSTEM|||
+||NDSS 2022|Semantic-Informed Driver Fuzzing Without Both the Hardware Devices and the Emulators|
+||USENIX 2020|USBFuzz: A framework for fuzzing USB drivers by device emulation|
+||SP 2020|Ex-vivo dynamic analysis framework for android device drivers|
+||ACM Transactions on Storage 2020|Finding Bugs in File Systems with an Extensible Fuzzing Framework|
+||SP 2020|KRACE : Data Race Fuzzing for Kernel File Systems|
+||SP 2019|Fuzzing File Systems via Two-Dimensional Input Space Exploration|
+||SOSP 2019|Finding semantic bugs in file systems with an extensible fuzzing framework|
+||CCS 17|Difuze: Interface aware fuzzing for kernel drivers|
+|PERFORMANCE|||
+||CCS 2021|Hardware Support to Improve Fuzzing Performance and Precision|
+||USENIX 2021|Undo Workarounds for Kernel Bugs|
+||USENIX 2020|Agamotto : Accelerating Kernel Driver Fuzzing with Lightweight Virtual Machine Checkpoints|
+||USENIX 2017|KAFL: Hardware-assisted feedback fuzzing for OS kernels|
+|STATE|||
+||CCS 2021|HyperFuzzer: An Efficient Hybrid Fuzzer for Virtual CPUs|
+||SP 2019|Razzer: Finding kernel race bugs through fuzzing|
+||WOOT 2019|Unicorefuzz: On the viability of emulation for kernelspace fuzzing|
+|OTHER|||
+||USENIX 2022|SyzScope: Revealing High-Risk Security Impacts of Fuzzer-Exposed Bugs in Linux kernel|
