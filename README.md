@@ -109,6 +109,8 @@
 ||2017-EUROP| On the Effectiveness of Virtualization Based Memory Isolation on Multicore Platforms
 ||2016-ATC| SecPod: SecPod: a Framework for Virtualization-based Security Systems
 ||2007-SOSP| SecVisor : A Tiny Hypervisor to Provide Lifetime Kernel Code Integrity for Commodity OSes
+||USENIX-2018| EPTI: Efficient Defence against Meltdown Attack for Unpatched VMs
+||VEE-2020| Lightweight Kernel Isolation with Virtualization and VM Functions
 |SLAT - Code|||
 ||2011-NDSS| Practical Protection of Kernel Integrity for Commodity OS from Untrusted Extensions
 ||2010-SP| TrustVisor: Efficient TCB Reduction and Attestation
