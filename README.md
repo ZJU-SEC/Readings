@@ -2,6 +2,8 @@
 
 ## Software Supply Chain
 2021-TSE: [Identifying Challenges for OSS Vulnerability Scanners - A Study & Test Suite](https://ieeexplore.ieee.org/document/9506931)
+2021-CCS: [Supply-chain vulnerability elimination via active learning and regeneration](https://dl.acm.org/doi/abs/10.1145/3460120.3484736)
+2019-USENIX-SEC: [Small World with High Risks: A Study of Security Threats in the npm Ecosystem](https://www.usenix.org/conference/usenixsecurity19/presentation/zimmerman)
 
 ## Kernel Static Analysis
 
