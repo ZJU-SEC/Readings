@@ -1,5 +1,7 @@
 # Readings
 
+## Software Supply Chain
+2021-TSE: [Identifying Challenges for OSS Vulnerability Scanners - A Study & Test Suite](https://ieeexplore.ieee.org/document/9506931)
 
 ## Kernel Static Analysis
 
