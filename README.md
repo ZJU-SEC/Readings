@@ -1,9 +1,47 @@
 # Readings
 
 ## Software Supply Chain
+
+* 2022-S&P:[Asleep at the Keyboard? Assessing the Security of GitHub Copilot’s Code Contributions](https://arxiv.org/pdf/2108.09293.pdf)
+* 2022-S&P:[Committed to Trust: A Qualitative Study on Security & Trust in Open Source Software Projects](https://www.computer.org/csdl/proceedings-article/sp/2022/131600b572/1CIO8qrO28E)
+* 2022-NDSS:[Cross-Language Attacks](https://www.ndss-symposium.org/wp-content/uploads/2022-78-paper.pdf)
+* 2022-ICSE:[Demystifying the Vulnerability Propagation and Its Evolution via Dependency Trees in the NPM Ecosystem](https://arxiv.org/pdf/2201.03981)
+* 2022-ICSE:[Practical Automated Detection of Malicious npm Packages](https://arxiv.org/pdf/2202.13953.pdf)
 * 2021-TSE: [Identifying Challenges for OSS Vulnerability Scanners - A Study & Test Suite](https://ieeexplore.ieee.org/document/9506931)
 * 2021-CCS: [Supply-chain vulnerability elimination via active learning and regeneration](https://dl.acm.org/doi/abs/10.1145/3460120.3484736)
-* 2019-USENIX-SEC: [Small World with High Risks: A Study of Security Threats in the npm Ecosystem](https://www.usenix.org/conference/usenixsecurity19/presentation/zimmerman)
+* 2021-NDSS:[Towards Measuring Supply Chain Attacks on Package Managers for Interpreted Languages](https://www.ndss-symposium.org/wp-content/uploads/ndss2021_1B-1_23055_paper.pdf)
+* 2021-CCS:[Preventing Dynamic  Library Compromise on Node.js via RWX-Based Privilege Reduction](https://nikos.vasilak.is/p/mir:ccs:2021.pdf)
+* 2021-CCS:[The Effect of Google Search on Software Security: Unobtrusive Security Interventions via Content Re-ranking](https://dl.acm.org/doi/pdf/10.1145/3460120.3484763)
+* 2021-ICSE:[Containing Malicious Package Updates in npm with a Lightweight Permission System](https://www.cs.cmu.edu/~ckaestne/pdf/icse21_malicious.pdf)
+* 2021-ICSE:[HERO: On the Chaos When PATH Meets Modules](https://arxiv.org/pdf/2102.12105.pdf)
+* 2021-ACM-SIGSAC:[Supply-Chain Vulnerability Elimination via Active Learning and Regeneration](https://nikos.vasilak.is/p/harp:ccs:2021.pdf)
+* 2021-SANER:[Empirical Analysis of Security Vulnerabilities in Python Packages](https://arxiv.org/pdf/1810.13310.pdf)
+* 2021-ESEC/FSE:[Detecting Node.js prototype pollution vulnerabilities via object lookup analysis](https://dl.acm.org/doi/pdf/10.1145/3468264.3468542)
+* 2020-CCS:[A Qualitative Study of Dependency Management and Its Security Implications](https://dl.acm.org/doi/abs/10.1145/3372297.3417232)
+* 2020-S&P[An Analysis of Pre-installed Android Software](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9152633)
+* 2020-ACM-SIGSAC:[Towards Using Source Code Repositories to Identify Software Supply Chain Attacks](http://www.lyvu.me/papers/ccs20poster-paper5.pdf)
+* 2020-ICSME:[Investigating the reproducibility of npm packages](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9240695)
+* 2020-ICSE:[Extracting taint specifications for JavaScript libraries](https://software-lab.org/publications/icse2020_Taser.pdf)
+* 2020-ICSE:[Watchman: monitoring dependency conflicts for Python library ecosystem](https://sqlab-sustech.github.io/files/paper/ICSE2020_Watchman.pdf)
+* 2020-RAID:[Mininode: Reducing the Attack Surface of Node.js Applications](https://www.usenix.org/system/files/raid20-koishybayev.pdf)
+* 2019-USENIX-SEC: [Small World with High Risks: A Study of Security Threats in the npm Ecosystem](https://www.usenix.net/system/files/sec19-zimmermann.pdf)
+* 2019-ICSE:[Detecting Suspicious Package Updates](https://www.cs.cmu.edu/~gferreir/pre-prints/icse2019-detecting-suspicious-package-updates.pdf)
+* 2019-ASIACCS:[ScriptProtect: Mitigating Unsafe Third-Party JavaScript Practices](https://swag.cispa.saarland/papers/musch2019scriptprotect.pdf)
+* 2019-NDSS:[How Bad Can It Git? Characterizing Secret Leakage in Public GitHub Repositories](https://www.ndss-symposium.org/wp-content/uploads/2019/02/ndss2019_04B-3_Meli_paper.pdf)
+* 2018-CCS:[Towards Paving the Way for Large-Scale Windows Malware Analysis: Generic Binary Unpacking with Orders-of-Magnitude Performance Boost](https://dl.acm.org/doi/10.1145/3243734.3243771)
+* 2018-ESEC/FSE:[Do the dependency conflicts in my project matter?](http://castle.cse.ust.hk/castle/publication/materials/fse18-ying.pdf)
+* 2017-NDSS:[Thou Shalt Not Depend on Me: Analysing the Use of Outdated JavaScript Libraries on the Web](https://arxiv.org/abs/1811.00918)
+* 2017-CCS:[Keep me Updated: An Empirical Study of Third-Party Library Updatability on Android](https://acmccs.github.io/papers/p2187-derrA.pdf)
+* 2017-ICSE:[How do developers fix cross-project correlated bugs? A case study on the GitHub scientific Python ecosystem](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7985678)
+* 2017-ASEW:[Can automated pull requests encourage software developers to upgrade out-of-date dependencies?](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8115621)
+* 2016-USENIX-SEC:[On Omitting Commits and Committing Omissions: Preventing Git Metadata Tampering That (Re)introduces Software Vulnerabilities](https://www.usenix.org/system/files/conference/usenixsecurity16/sec16_paper_torres-arias.pdf)
+* 2015-ICSME:[Impact assessment for vulnerabilities in open-source software libraries](https://arxiv.org/pdf/1504.04971.pdf)
+* 2015-SANER:[Tracking known security vulnerabilities in proprietary software systems](https://pure.tudelft.nl/ws/portalfiles/portal/86335468/cadariu2015.pdf)
+* 2015-ASEW:[When It Breaks, It Breaks: How Ecosystem Developers Reason about the Stability of Dependencies](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7426643)
+* 2015-ICSW:[Measuring Dependency Freshness in Software Systems](https://ericbouwers.github.io/papers/icse15.pdf)
+* 2008-CCS:[A look in the mirror: attacks on package managers](https://theupdateframework.io/papers/attacks-on-package-managers-ccs2008.pdf)
+* 2003-S&P:[Poisoning the software supply chain](https://ieeexplore.ieee.org/document/1203227)
+* 
 
 ## Kernel Static Analysis
 
