@@ -2,6 +2,11 @@
 
 ## Software Supply Chain
 
+* 2022-ISSTA: [A Large-Scale Empirical Analysis of the Vulnerabilities Introduced by Third-Party Components in IoT Firmware](https://nesa.zju.edu.cn/download/zbb_pdf_issta_22.pdf)
+* 2022-S&P: [“They’re not that hard to mitigate”: What Cryptographic Library Developers Think About Timing Attacks](https://cryptojedi.org/papers/usect-20211216.pdf)
+* 2022-NDSS: [Building Embedded Systems Like It’s 1996](https://arxiv.org/pdf/2203.06834.pdf)
+* 2022-WWW: [Understanding the Practice of Security Patch Management across Multiple Branches in OSS Projects](https://csis.gmu.edu/ksun/publications/PatchStudy_WWW22.pdf)
+* 2022-NDSS: [Probe the Proto: Measuring Client-Side Prototype Pollution Vulnerabilities of One Million Real-world Websites](https://yinzhicao.org/ProbetheProto/ProbetheProto.pdf)
 * 2022-S&P: [Asleep at the Keyboard? Assessing the Security of GitHub Copilot’s Code Contributions](https://arxiv.org/pdf/2108.09293.pdf)
 * 2022-S&P: [Committed to Trust: A Qualitative Study on Security & Trust in Open Source Software Projects](https://www.computer.org/csdl/proceedings-article/sp/2022/131600b572/1CIO8qrO28E)
 * 2022-NDSS: [Cross-Language Attacks](https://www.ndss-symposium.org/wp-content/uploads/2022-78-paper.pdf)
