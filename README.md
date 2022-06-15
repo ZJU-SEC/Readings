@@ -42,6 +42,25 @@
 * 2008-CCS: [A look in the mirror: attacks on package managers](https://theupdateframework.io/papers/attacks-on-package-managers-ccs2008.pdf)
 * 2003-S&P: [Poisoning the software supply chain](https://ieeexplore.ieee.org/document/1203227)
 
+
+* CCS-2012: [You Are What You Include: Large-scale Evaluation of Remote JavaScript Inclusions](https://dl.acm.org/doi/pdf/10.1145/2382196.2382274)
+* ESEC/FSE-2016: [How to break an API: cost negotiation and community values in three software ecosystems.](https://dl.acm.org/doi/pdf/10.1145/2950290.2950325)
+* ESEC/FSE-2017: [Why do developers use trivial packages? an empirical case study on npm.](https://dl.acm.org/doi/pdf/10.1145/3106237.3106267)
+* NDSS-2018: [The impact of regular expression denial of service (redos) in practice: an empirical study at the ecosystem scale](https://dl.acm.org/doi/pdf/10.1145/3236024.3236027)
+* USENIX-2018: [BreakApp: Automated, Flexible Application Compartmentalization](http://ic.ese.upenn.edu/pdf/breakapp_ndss2018.pdf)
+* USENIX-2020: [Interactive, effort-aware library version harmonization](https://dl.acm.org/doi/pdf/10.1145/3368089.3409689)
+* ASE-2021: [Abusing Hidden Properties to Attack the Node.js Ecosystem](https://www.usenix.org/system/files/sec21-xiao.pdf)
+* ESEC/FSE-2021: [A Longitudinal Analysis of Bloated Java Dependencies](https://dl.acm.org/doi/pdf/10.1145/3468264.3468589)
+* ESEC/FSE-2021: [An Investigation of the Android Kernel Patch Ecosystem](https://www.usenix.org/system/files/sec21-zhang-zheng.pdf)
+* TSE-2021: [Dependency Smells in JavaScript Projects](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9519532)
+* TSE-2021: [LastPyMile: identifying the discrepancy between sources and packages](https://dl.acm.org/doi/pdf/10.1145/3468264.3468592)
+* USENIX-2021: [Back to the Past -- Analysing Backporting Practices in Package Dependency Networks](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9540328)
+* USENIX-2021: [A large-scale empirical study on Java library migrations: prevalence, trends, and rationales](https://dl.acm.org/doi/pdf/10.1145/3468264.3468571)
+* USENIX-2021: [REPFINDER: Finding Replacements for Missing APIs in Library Update](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9678905)
+* TSE-2022: [Open or Sneaky? Fast or Slow? Light or Heavy?: Investigating Security Releases of Open Source Packages](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9792380)
+
+
+
 ## Kernel Static Analysis
 
 ### Latest Static Analysis Technique
