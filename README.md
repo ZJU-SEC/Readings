@@ -7,7 +7,6 @@
 * 2022-NDSS: [Cross-Language Attacks](https://www.ndss-symposium.org/wp-content/uploads/2022-78-paper.pdf)
 * 2022-ICSE: [Demystifying the Vulnerability Propagation and Its Evolution via Dependency Trees in the NPM Ecosystem](https://arxiv.org/pdf/2201.03981)
 * 2022-ICSE: [Practical Automated Detection of Malicious npm Packages](https://arxiv.org/pdf/2202.13953.pdf)
-* TSE-2022: [Open or Sneaky? Fast or Slow? Light or Heavy?: Investigating Security Releases of Open Source Packages](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9792380)
 * 2022-TSE: [Open or Sneaky? Fast or Slow? Light or Heavy?: Investigating Security Releases of Open Source Packages](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9792380)
 * 2021-TSE: [Identifying Challenges for OSS Vulnerability Scanners - A Study & Test Suite](https://ieeexplore.ieee.org/document/9506931)
 * 2021-CCS: [Supply-chain vulnerability elimination via active learning and regeneration](https://dl.acm.org/doi/abs/10.1145/3460120.3484736)
