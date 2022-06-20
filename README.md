@@ -30,7 +30,7 @@
 ||2018-NDSS|[BreakApp: Automated, Flexible Application Compartmentalization](http://ic.ese.upenn.edu/pdf/breakapp_ndss2018.pdf)
 ||2017-NDSS|[Thou Shalt Not Depend on Me: Analysing the Use of Outdated JavaScript Libraries on the Web](https://arxiv.org/abs/1811.00918)
 ||2017-CCS|[Keep me Updated: An Empirical Study of Third-Party Library Updatability on Android](https://acmccs.github.io/papers/p2187-derrA.pdf)
-||2016-USENIX-SEC|[On Omitting Commits and Committing Omissions: Preventing Git Metadata Tampering That (Re)introduces Software Vulnerabilities](https://www.usenix.org/system/files/conference/usenixsecurity16/sec16_paper_torres-arias.pdf)
+||2016-USENIX|[On Omitting Commits and Committing Omissions: Preventing Git Metadata Tampering That (Re)introduces Software Vulnerabilities](https://www.usenix.org/system/files/conference/usenixsecurity16/sec16_paper_torres-arias.pdf)
 ||2012-CCS|[You Are What You Include: Large-scale Evaluation of Remote JavaScript Inclusions](https://dl.acm.org/doi/pdf/10.1145/2382196.2382274)
 ||2008-CCS|[A look in the mirror: attacks on package managers](https://theupdateframework.io/papers/attacks-on-package-managers-ccs2008.pdf)
 ||2003-S&P|[Poisoning the software supply chain](https://ieeexplore.ieee.org/document/1203227)
