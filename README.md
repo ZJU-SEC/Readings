@@ -22,7 +22,7 @@
 ||2020-CCS|[A Qualitative Study of Dependency Management and Its Security Implications](https://dl.acm.org/doi/abs/10.1145/3372297.3417232)
 ||2020-S&P|[An Analysis of Pre-installed Android Software](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9152633)
 ||2020-RAID|[Mininode: Reducing the Attack Surface of Node.js Applications](https://www.usenix.org/system/files/raid20-koishybayev.pdf)
-||2019-USENIX-SEC|[Small World with High Risks: A Study of Security Threats in the npm Ecosystem](https://www.usenix.net/system/files/sec19-zimmermann.pdf)
+||2019-USENIX|[Small World with High Risks: A Study of Security Threats in the npm Ecosystem](https://www.usenix.net/system/files/sec19-zimmermann.pdf)
 ||2019-ASIACCS|[ScriptProtect: Mitigating Unsafe Third-Party JavaScript Practices](https://swag.cispa.saarland/papers/musch2019scriptprotect.pdf)
 ||2019-NDSS|[How Bad Can It Git? Characterizing Secret Leakage in Public GitHub Repositories](https://www.ndss-symposium.org/wp-content/uploads/2019/02/ndss2019_04B-3_Meli_paper.pdf)
 ||2019-USENIX|[Less is More: Quantifying the Security Benefits of Debloating Web Applications](https://www.usenix.org/system/files/sec19-azad.pdf)
