@@ -1,5 +1,105 @@
 # Readings
 
+## Agent Security
+
+### Core Attack Surfaces
+|Type|Conference|Paper|
+|------|------|------|
+|Prompt Injection & Indirect Instruction|||
+||2026-ICLR|[ChatInject: Abusing Chat Templates for Prompt Injection in LLM Agents](https://openreview.net/forum?id=WVhgFSKniL)
+||2026-ICLR|[Indirect Prompt Injections: Are Firewalls All You Need, or Stronger Benchmarks?](https://openreview.net/forum?id=MqLJRCUBYG)
+||2026-ICLR|[PromptArmor: An Essential Baseline for Prompt Injection Defenses](https://openreview.net/forum?id=IeNXtofK6T)
+||2026-NDSS|[Attention is All You Need to Defend Against Indirect Prompt Injection Attacks in LLMs](https://www.ndss-symposium.org/ndss-paper/attention-is-all-you-need-to-defend-against-indirect-prompt-injection-attacks-in-llms/)
+||2026-NDSS|[ObliInjection: Order-Oblivious Prompt Injection Attack to LLM Agents with Multi-source Data](https://www.ndss-symposium.org/ndss-paper/obliinjection-order-oblivious-prompt-injection-attack-to-llm-agents-with-multi-source-data/)
+||2025-ACM CCS|[Here Comes the AI Worm: Preventing the Propagation of Adversarial Self-Replicating Prompts Within GenAI Ecosystems](https://doi.org/10.1145/3719027.3765196)
+||2025-ACM CCS|[SecAlign: Defending Against Prompt Injection with Preference Optimization](https://doi.org/10.1145/3719027.3744836)
+||2025-ICML|[MELON: Provable Defense Against Indirect Prompt Injection Attacks in AI Agents](https://proceedings.mlr.press/v267/zhu25z.html)
+||2025-IEEE S&P|[DataSentinel: A Game-Theoretic Detection of Prompt Injection Attacks](https://doi.org/10.1109/SP61157.2025.00250)
+||2025-IEEE S&P|[Fun-tuning: Characterizing the Vulnerability of Proprietary LLMs to Optimization-Based Prompt Injection Attacks via the Fine-Tuning Interface](https://doi.org/10.1109/SP61157.2025.00121)
+||2025-NeurIPS|[DRIFT: Dynamic Rule-Based Defense with Injection Isolation for Securing LLM Agents](https://neurips.cc/virtual/2025/poster/116028)
+||2025-USENIX Security|[Make Agent Defeat Agent: Automatic Detection of Taint-Style Vulnerabilities in LLM-based Agents](https://www.usenix.org/conference/usenixsecurity25/presentation/liu-fengyu)
+||2025-USENIX Security|[SelfDefend: LLMs Can Defend Themselves against Jailbreaking in a Practical Manner](https://www.usenix.org/conference/usenixsecurity25/presentation/wang-xunguang)
+||2025-USENIX Security|[StruQ: Defending Against Prompt Injection with Structured Queries](https://www.usenix.org/conference/usenixsecurity25/presentation/chen-sizhe)
+||2024-ACM CCS|[A Causal Explainable Guardrails for Large Language Models](https://doi.org/10.1145/3658644.3690217)
+||2024-ACM CCS|[Optimization-based Prompt Injection Attack to LLM-as-a-Judge](https://doi.org/10.1145/3658644.3690291)
+|Tool Hijacking & Tool Selection|||
+||2026-ICLR|[ToolTweak: An Attack on Tool Selection in LLM-based Agents](https://openreview.net/forum?id=dQXa5jvpQN)
+||2026-ICLR|[TrojanTools: Adaptive Indirect Prompt Injection on LLM Agents via Malicious Tool-Calling](https://openreview.net/forum?id=PFbt5pWWh7)
+||2026-NDSS|[Les Dissonances: Cross-Tool Harvesting and Polluting in Pool-of-Tools Empowered LLM Agents](https://www.ndss-symposium.org/ndss-paper/les-dissonances-cross-tool-harvesting-and-polluting-in-pool-of-tools-empowered-llm-agents/)
+||2026-NDSS|[Prompt Injection Attack to Tool Selection in LLM Agents](https://www.ndss-symposium.org/ndss-paper/prompt-injection-attack-to-tool-selection-in-llm-agents/)
+||2025-EMNLP|[IPIGuard: A Novel Tool Dependency Graph-Based Defense Against Indirect Prompt Injection in LLM Agents](https://aclanthology.org/2025.emnlp-main.53/)
+||2025-NeurIPS|[Attractive Metadata Attack: Inducing LLM Agents to Invoke Malicious Tools](https://neurips.cc/virtual/2025/poster/116046)
+|Memory / Context Poisoning|||
+||2026-ICLR|[A-MemGuard: A Proactive Defense Framework for LLM-Based Agent Memory](https://openreview.net/forum?id=fVxfCEv8xG)
+||2026-ICLR|[InjecMEM: Memory Injection Attack on LLM Agent Memory Systems](https://openreview.net/forum?id=QVX6hcJ2um)
+||2026-ICLR Workshop MemAgents|[Memory Injection Attacks on LLM Agents via Query-Only Interaction](https://openreview.net/forum?id=i7J62t2wtV)
+||2025-WCUA|[Context Manipulation Attacks: Web Agents Are Susceptible to Corrupted Memory](https://openreview.net/forum?id=4LovHyz92W)
+|Prompt / Configuration Leakage|||
+||2026-IEEE S&P|[LLMThief: Evaluating Configuration Leaking Risks in Commercial LLM App Stores](https://www.jianjunchen.com/p/llm-leak.SP26.pdf)
+||2025-ACM CCS|[Prompt Inference Attack on Distributed Large Language Model Inference Frameworks](https://doi.org/10.1145/3719027.3744820)
+||2025-ACM CCS|[You Can't Steal Nothing: Mitigating Prompt Leakages in LLMs via System Vectors](https://doi.org/10.1145/3719027.3765124)
+||2025-IEEE S&P|[On the Effectiveness of Prompt Stealing Attacks on In-the-Wild Prompts](https://ieeexplore.ieee.org/document/11023383)
+||2025-USENIX Security|[PRSA: Prompt Stealing Attacks against Real-World Prompt Services](https://www.usenix.org/conference/usenixsecurity25/presentation/yang-yong)
+
+### System Boundaries & Ecosystem Security
+|Type|Conference|Paper|
+|------|------|------|
+|Execution Isolation & Permission Control|||
+||2026-IEEE S&P|[Towards Automating Data Access Permissions in AI Agents](https://arxiv.org/abs/2511.17959)
+||2026-NDSS|[ACE: A Security Architecture for LLM-Integrated App Systems](https://www.ndss-symposium.org/ndss-paper/ace-a-security-architecture-for-llm-integrated-app-systems/)
+||2026-NDSS|[Beyond Jailbreak: Unveiling Risks in LLM Applications Arising from Blurred Capability Boundaries](https://www.ndss-symposium.org/ndss-paper/beyond-jailbreak-unveiling-risks-in-llm-applications-arising-from-blurred-capability-boundaries/)
+||2025-NDSS|[IsolateGPT: An Execution Isolation Architecture for LLM-Based Agentic Systems](https://www.ndss-symposium.org/ndss-paper/isolategpt-an-execution-isolation-architecture-for-llm-based-agentic-systems/)
+||2024-ACM CCS|[Demystifying RCE Vulnerabilities in LLM-Integrated Apps](https://doi.org/10.1145/3658644.3690338)
+|MCP / Plugin / App Ecosystem Security|||
+||2026-ICLR|[Log-To-Leak: Prompt Injection Attacks on Tool-Using LLM Agents via Model Context Protocol](https://openreview.net/forum?id=UVgbFuXPaO)
+||2026-IEEE S&P|[When AI Meets the Web: Prompt Injection Risks in Third-Party AI Chatbot Plugins](https://arxiv.org/abs/2511.05797)
+||2025-IEEE S&P|[On the (In)Security of LLM App Stores](https://doi.org/10.1109/SP61157.2025.00117)
+|Multi-Agent Trust / Governance|||
+||2026-ICLR|[Exposing Weak Links in Multi-Agent Systems under Adversarial Prompting](https://openreview.net/forum?id=WHVk2qoCIY)
+||2026-NDSS|[SAGA: A Security Architecture for Governing AI Agentic Systems](https://www.ndss-symposium.org/ndss-paper/saga-a-security-architecture-for-governing-ai-agentic-systems/)
+||2025-AAAI|[Multi-Agent Security Tax: Trading Off Security and Collaboration Capabilities in Multi-Agent Systems](https://ojs.aaai.org/index.php/AAAI/article/view/34970)
+||2025-ACL|[G-Safeguard: A Topology-Guided Security Lens and Treatment on LLM-based Multi-agent Systems](https://aclanthology.org/2025.acl-long.359/)
+||2025-ACL|[Red-Teaming LLM Multi-Agent Systems via Communication Attacks](https://aclanthology.org/2025.findings-acl.349/)
+||2024-AAAI|[Robust Communicative Multi-Agent Reinforcement Learning with Active Defense](https://ojs.aaai.org/index.php/AAAI/article/view/29708)
+||2024-ICML|[Agent Smith: A Single Image Can Jailbreak One Million Multimodal LLM Agents Exponentially Fast](https://proceedings.mlr.press/v235/gu24e.html)
+
+### Agent Settings & Real Environments
+|Type|Conference|Paper|
+|------|------|------|
+|Web / Browser Agent Security|||
+||2026-IEEE S&P|[Investigating the Impact of Dark Patterns on LLM-Based Web Agents](https://arxiv.org/abs/2510.18113)
+||2026-IEEE S&P|[WebCloak: Characterizing and Mitigating Threats from LLM-Driven Web Agents as Intelligent Scrapers](https://www.computer.org/csdl/proceedings-article/sp/2026/606500a454/2bojvpDqlgc)
+||2025-ICML|[AdvAgent: Controllable Blackbox Red-teaming on Web Agents](https://proceedings.mlr.press/v267/xu25m.html)
+||2025-USENIX Security|[When LLMs Go Online: The Emerging Threat of Web-Enabled LLMs](https://www.usenix.org/conference/usenixsecurity25/presentation/kim-hanna)
+|Computer-Use / Coding Agent Security|||
+||2026-ICLR|[Deep-Cover Agents: Long-Horizon Prompt Injections on Production LLM Systems](https://openreview.net/forum?id=U3kxnDzuRz)
+||2025-IEEE S&P|[Make a Feint to the East While Attacking in the West: Blinding LLM-Based Code Auditors with Flashboom Attacks](https://doi.org/10.1109/SP61157.2025.00125)
+||2025-NeurIPS|[MIP against Agent: Malicious Image Patches Hijacking Multimodal OS Agents](https://neurips.cc/virtual/2025/poster/117813)
+||2024-ACM CCS|[PromSec: Prompt Optimization for Secure Generation of Functional Source Code with Large Language Models (LLMs)](https://doi.org/10.1145/3658644.3690298)
+
+### Security Infrastructure
+|Type|Conference|Paper|
+|------|------|------|
+|Monitoring / Oversight|||
+||2026-ICLR|[How Does Information Access Affect LLM Monitors' Ability to Detect Sabotage?](https://openreview.net/forum?id=PLidw19tPf)
+||2026-ICLR|[Reliable Weak-to-Strong Monitoring of LLM Agents](https://openreview.net/forum?id=WV7xIboTDK)
+||2025-BuildingTrust|[Monitoring LLM Agents for Sequentially Contextual Harm](https://openreview.net/forum?id=LC0XQ6ufbr)
+||2025-USENIX Security|[Cloak, Honey, Trap: Proactive Defenses Against LLM Agents](https://www.usenix.org/conference/usenixsecurity25/presentation/ayzenshteyn)
+|Benchmark / Evaluation Platform|||
+||2026-ICLR|[A2ASecBench: A Protocol-Aware Security Benchmark for Agent-to-Agent Multi-Agent Systems](https://openreview.net/forum?id=LfdFnakqGJ)
+||2026-ICLR|[Breaking Agent Backbones: Evaluating the Security of Backbone LLMs in AI Agents](https://openreview.net/forum?id=kga18ld70t)
+||2026-ICLR|[RedTeamCUA: Realistic Adversarial Testing of Computer-Use Agents in Hybrid Web-OS Environments](https://openreview.net/forum?id=yWwrgcBoK3)
+||2026-ICLR|[VPI-Bench: Visual Prompt Injection Attacks for Computer-Use Agents](https://openreview.net/forum?id=UMauKu2azg)
+||2025-ICLR|[Agent Security Bench (ASB): Formalizing and Benchmarking Attacks and Defenses in LLM-based Agents](https://openreview.net/forum?id=V4y0CpX4hK)
+||2025-ICLR|[AgentHarm: A Benchmark for Measuring Harmfulness of LLM Agents](https://openreview.net/forum?id=AC5n7xHuR1)
+||2025-ICML|[SafeArena: Evaluating the Safety of Autonomous Web Agents](https://proceedings.mlr.press/v267/tur25a.html)
+||2025-NeurIPS|[OS-Harm: A Benchmark for Measuring Safety of Computer Use Agents](https://neurips.cc/virtual/2025/loc/san-diego/poster/121772)
+||2025-NeurIPS|[SEC-bench: Automated Benchmarking of LLM Agents on Real-World Software Security Tasks](https://neurips.cc/virtual/2025/poster/118134)
+||2025-NeurIPS|[Security Challenges in AI Agent Deployment: Insights from a Large Scale Public Competition](https://neurips.cc/virtual/2025/poster/121622)
+||2025-NeurIPS|[WASP: Benchmarking Web Agent Security Against Prompt Injection Attacks](https://neurips.cc/virtual/2025/poster/121728)
+||2024-ACL Findings|[InjecAgent: Benchmarking Indirect Prompt Injections in Tool-Integrated Large Language Model Agents](https://aclanthology.org/2024.findings-acl.624/)
+||2024-NeurIPS|[AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents](https://proceedings.neurips.cc/paper_files/paper/2024/hash/97091a5177d8dc64b1da8bf3e1f6fb54-Abstract-Datasets_and_Benchmarks_Track.html)
+
 ## Software Supply Chain
 |Type|Conference|Paper|
 |------|------|------|
